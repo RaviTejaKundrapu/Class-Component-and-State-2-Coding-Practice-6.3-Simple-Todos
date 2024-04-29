@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.Todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 9px;
+  border: 1px solid rgb(236, 218, 153);
+  margin-top: 4px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 6px;
+  color: #000000;
+}
+
+.button {
+  border-radius: 10px;
+  border: 1px solid red;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(255, 16, 16);
+  padding: 6px;
+  margin: 6px;
+}
+@media all and (min-width: 767px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .button {
+    font-size: 21px;
+  }
+}
